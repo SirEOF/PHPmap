@@ -33,7 +33,7 @@ import sqlite3
 
 class VulnDB:
 	def connect(self):
-		conn = sqlite3.connect('attacks\phpmap3.db')
+		conn = sqlite3.connect('attacks/PHPmap3.db')
 		cursor = conn.cursor()
 		return conn,cursor
 		
